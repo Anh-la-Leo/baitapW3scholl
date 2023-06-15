@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript switch</h2>
+
+    <p id="demo"></p>
+</body>
+<script>
+    let day;
+    switch (new Date().getDay()){
+        case 0:
+        day="thu 2";
+            break;
+        case 1:
+            day="thu 3"
+        break;
+        case 2:
+            day="thu 4";
+        break;
+        case 3:
+            day="thu 5"
+            break;
+        case 4:
+        day="thu 6";
+        break;
+        case 5:
+            day="thu 7"
+            break;
+        case 6:
+        day="chu nhat";
+        break; 
+    }
+    document.getElementById("demo").innerHTML= day
+</script>
+</html>
